@@ -30,6 +30,19 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+img#logo {
+    height: 80px;
+    display: inline;
+    filter: invert(100%);
+}
+
 h1 {
     font-size: 6rem;
     font-family: "Jersey 20", sans-serif;
@@ -81,4 +94,8 @@ input[type="email"]:focus {
 
 #btn-check-emails {
     font-size: 1.5rem;
+}
+
+#alert-failed, #alert-sucess {
+    display: none;
 }

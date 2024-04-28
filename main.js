@@ -6,7 +6,10 @@ const createWindow = () => {
     maxHeight: 600,
     minHeight: 600,
     minWidth: 800,
-
+    webPreferences: {
+        nodeIntegration: true
+    },
+    autoHideMenuBar: true,
   });
 
   win.loadFile("index.html");
