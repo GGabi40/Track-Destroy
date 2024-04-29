@@ -29,13 +29,13 @@
 
         <form class="container">
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label"
+            <label for="inputEmail" class="form-label"
               >Email address</label
             >
             <input
               type="email"
               class="form-control"
-              id="exampleInputEmail1"
+              id="inputEmail"
               aria-describedby="emailHelp"
               required
             />
@@ -83,10 +83,17 @@
       </button>
     </div>
 
+    <div class="card card-col m-3">
+      <h3>Registered emails:</h3>
+      <div class="card-body emails-here"></div>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <script src="./trackAndMail.js"></script>
   </body>
 </html>

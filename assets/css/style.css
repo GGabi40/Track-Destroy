@@ -99,3 +99,14 @@ input[type="email"]:focus {
 #alert-failed, #alert-sucess {
     display: none;
 }
+
+.card-col {
+    max-width: 300px;
+    font-size: 1.6rem;
+    padding: 5px;
+    /* display: none; */
+}
+
+.card-col h3 {
+    text-align: center;
+}
